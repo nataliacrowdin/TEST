@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="agritask">«AgriTask»</string>
+    <string name="agritask">AgriTask</string>
     <string name="welcome">Вітаємо</string>
     <string name="location">Місцезнаходження</string>
     <string name="dataStatus">Синхронізація даних</string>
