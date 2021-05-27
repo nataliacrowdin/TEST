@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="agritask">«AgriTask»</string>
-    <string name="welcome">\"Welcome</string>
-    <string name="location">\"Location</string>
+    <string name="agritask">AgriTask</string>
+    <string name="welcome">Welcome</string>
+    <string name="location">Location</string>
     <string name="dataStatus">Data Sync</string>
     <string name="flowStatus">Flow Sync</string>
+
     <string name="cancel_button_label">Cancel</string>
     <string name="close_button_label">Close</string>
+
     <string name="last_reading_label">Last reading at</string>
     <string name="latitude_label">Latitude</string>
     <string name="longitude_label">Longitude</string>
@@ -33,6 +35,7 @@
     <string name="no_button_text">No</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+
     <!-- Preferences -->
     <string name="pref_ui_language_title">Language</string>
     <string name="pref_ui_language_desc">Selects the language of the application</string>
@@ -51,6 +54,7 @@
     <string name="pref_url_flow_sync_desc">The relative or full URL for Flow synchronization</string>
     <string name="pref_url_data_sync_title">Data Sync URL</string>
     <string name="pref_url_data_sync_desc">The relative or full URL for Data synchronization</string>
+
     <!-- Map Settings -->
     <string name="pref_category_gps">GPS</string>
     <string name="pref_map_track_interval_title">Map Track Interval</string>
@@ -73,6 +77,7 @@
     <string name="pref_map_area_unit_decare">Decare</string>
     <string name="pref_map_area_unit_hectare">Hectare</string>
     <string name="pref_map_area_unit_acre">Acre</string>
+
     <string name="pref_log_url_title">Log URL</string>
     <string name="pref_log_url_desc">The relative or full URL for storing log data</string>
     <string name="pref_log_level_title">Log Level</string>
@@ -93,8 +98,10 @@
     <string name="pref_data_edit_advanced_desc">Advanced data editing</string>
     <string name="pref_url_gis_service_title">GIS service URL</string>
     <string name="pref_url_gis_service_desc">The relative or full URL for GIS service</string>
+
     <string name="dialog_nfc_title">NFC is disabled</string>
     <string name="dialog_nfc_text">NFC reader is disabled. Do you want to open system settings and enable it?</string>
+
     <string name="lbl_menu_tasks">Tasks</string>
     <string name="lbl_menu_newReport">New Report</string>
     <string name="lbl_menu_settings">Settings</string>
@@ -106,7 +113,9 @@
     <string name="lbl_menu_clear">Clear</string>
     <string name="lbl_menu_logLevel">Log Level</string>
     <string name="lbl_menu_map">Map</string>
+
     <string name="title_dialog_chooseLogLevel">Choose Level</string>
+
     <string name="loclog">Location Log</string>
     <string name="track_menu_send">Send</string>
     <string name="track_user"></string>
@@ -127,7 +136,9 @@
     <string name="track_menu_clear_sync">Clear buffer</string>
     <string name="track_battery_level">Battery level</string>
     <string name="track_notification_progress">Tracking in progress</string>
+
     <string name="nfc_write_code_tag">Barcode to write to tag:</string>
+
     <!-- Main Application/Activity Resources -->
     <string name="err_unknownError">Internal Error. Please contact tech.support.</string>
     <string name="err_unknownErrorShort">Internal Error.</string>
@@ -140,6 +151,7 @@
     <string name="sync_err_images_data">Data to be sent: %1$d image(s) and %2$d data record(s)</string>
     <string name="sync_success_data">Sent %1$d data record(s)</string>
     <string name="sync_success_images">Sent %1$d image(s)</string>
+
     <!-- SyncManager Resources -->
     <string name="err_invalidUpdate">The latest update contains errors. Please contact technical support.</string>
     <string name="err_invalidUpdateShort">The latest update contains errors.</string>
@@ -159,6 +171,7 @@
     <string name="err_outOfMemoryErrorShort">Insufficient memory.</string>
     <string name="err_systemConfigurtionError">There was an error due to invalid system configuration. Please contact technical support.</string>
     <string name="err_systemConfigurtionErrorShort">Invalid system configuration.</string>
+
     <!-- FlowEngine Resources -->
     <string name="list_toggle">Toggle</string>
     <string name="dialog_success_title">Success</string>
@@ -190,6 +203,7 @@
     <string name="dialog_permissions_denied_title">Permissions are denied</string>
     <string name="dialog_capture_settings_text">You have denied the permissions required to capture photos. Please enable Storage and Camera permissions in the system settings.</string>
     <string name="dialog_gallery_settings_text">You have denied the permission required to add photo. Please enable the Storage permission in the system settings.</string>
+
     <string name="gps_icon_title">GPS Status</string>
     <string name="gps_disabled">GPS is Disabled</string>
     <string name="gps_searching">Searching for GPS Satellites</string>
@@ -218,9 +232,11 @@
     <string name="gps_distance_bearing_m">%1$s m, %2$s</string>
     <string name="gps_distance_bearing_km">%1$.1f km, %2$s</string>
     <string name="gps_less_than_10m">less than 10 m</string>
+
     <string name="alerts_icon_title">Alerts</string>
     <string name="alerts_search">Search</string>
     <string name="search_placeholder">Search…</string>
+
     <!-- GPS Wait Dialog -->
     <string name="gps_wait_title">GPS Status Warning</string>
     <string name="gps_wait_message_tracking_disabled">GPS location is disabled.\nThe application cannot attach location information to the data.</string>
@@ -237,7 +253,10 @@
     <string name="gps_wait_send_now_button">Send Now</string>
     <string name="gps_wait_send_in_button">Send in %1$s</string>
     <string name="gps_wait_button">Wait</string>
+
     <string name="err_wait_for_warmup_location">Wait until you receive a full GPS icon:</string>
+
+
     <!-- FlowEngine Input Errors -->
     <string name="err_invTag">Forbidden action! Please check.</string>
     <string name="err_invTagType">Forbidden action! Please check.</string>
@@ -258,12 +277,14 @@
     <string name="err_noOptionsAvailable">The list has no data. Please cancel and contact technical support.</string>
     <string name="err_noOptionsAvailableLbl">The list &quot;%1$s&quot; has no data. Please cancel and contact technical support.</string>
     <string name="err_failedToObtainPhoto">Faield to capture photo. Please try again.</string>
+
     <!--DataStore Screen-->
     <string name="data_store_list_empty">There are no saved records found</string>
     <string name="data_store_delete_all_message">You are about to delete all saved records. Do you want to proceed?</string>
     <string name="data_store_mail_chooser">Send exported data</string>
     <string name="data_store_mail_subject">Data store export</string>
     <string name="data_store_mail_text">Data store export</string>
+
     <!--Map-->
     <string name="map_legend_crop_title">Crops</string>
     <string name="map_iw_location">Location:</string>
@@ -284,8 +305,10 @@
     <string name="map_btn_report_last">Final Report</string>
     <string name="map_nbl_visble_sensors_and_traps">Visible sensors and traps</string>
     <string name="map_nbl_visble_sensors_and_traps_for_plot">Visible sensors and traps\nthat are associated with the plot</string>
+
     <string name="err_locationActionsNotAvailable">There are no actions available for the selected location. Please check that the location is in active season.</string>
     <string name="photo_preview">Photo Preview</string>
+
     <string name="btn_scan_barcode">Scan barcode</string>
     <string name="scan_barcode_status_1">Barcode scanned</string>
     <string name="scan_barcode_status_2">Touch NFC tag</string>
@@ -294,16 +317,20 @@
     <string name="scan_barcode_status_5">Tag written successfully</string>
     <string name="scan_barcode_status_6">Error writing to tag\nTry again</string>
     <string name="scan_barcode_status_7">Not supported barcode</string>
+
     <string name="scan_barcode_no_nfc_title">Warning</string>
     <string name="scan_barcode_no_nfc_message">The NFC function of your device is disabled. Do you want to enable it?</string>
     <string name="scan_barcode_help_title">Help</string>
     <string name="scan_barcode_help_message">Press the Scan Barcode button, place the barcode in the scan area and move the phone slightly back and forth until successful scan.\nThen touch the card until you see a green icon with success message.</string>
+
     <string name="gps_status_general_na">N/A</string>
     <string name="gps_status_accuracy_high">High</string>
     <string name="gps_status_accuracy_low">Low</string>
     <string name="gps_status_accuracy_none">None</string>
     <string name="gps_status_accuracy_disabled">Disabled</string>
+
     <string name="err_checkboxConfirmRequiredLbl">Please confirm \"%1$s\"</string>
+
     <!-- Greenhouse Location Resources -->
     <string name="green_house">Green House</string>
     <string name="position_in_greenhouse">Position in Greenhouse</string>
@@ -329,11 +356,15 @@
     <string name="err_endOfGreenhouseReached">You are at the end of the greenhouse route. You can report additional data only if you reset the route.</string>
     <string name="btn_next_bed">Next Bed</string>
     <string name="btn_prev_bed">Prev Bed</string>
+
     <string name="will_be_supported">This will be supported in the next version</string>
+
+
     <!--FlowRecord statuses-->
     <string name="flowRecordStatusSent">Sent</string>
     <string name="flowRecordStatusNotSent">Not sent</string>
     <string name="flowRecordStatusSending">Sending</string>
+
     <!--ImageListActivity-->
     <string name="imgListMenuStat">Statistics</string>
     <string name="imgListCtxMenuDelete">Delete</string>
@@ -341,6 +372,8 @@
     <string name="imgListCtxMenuNotDeleted">The file wasn\'t deleted because of an unexpected error</string>
     <string name="imgListCtxMenuSyncing">The file is being sent to the server right now. Try to delete it using the web application</string>
     <string name="imgListCtxMenuSent">The file is already sent to the server. Try to delete it using the web application</string>
+
+
     <string name="aalerts_go_to_task">Go to task</string>
     <string name="alerts_alerts_title">Alerts</string>
     <string name="alerts_sort_by">Sort by…</string>
@@ -394,6 +427,8 @@
     <string name="sync_icon">Sync Icon</string>
     <string name="sync_progress">Sync Status</string>
     <string name="sync_requesting_screens">Requesting Screens… </string>
+
+
     <!-- Tasks List Activity -->
     <string name="plan_and_execute_title">Plan And Execute</string>
     <string name="completed">Completed</string>
@@ -406,6 +441,7 @@
     <string name="complete_task">Complete this task ?</string>
     <string name="complete_task_message">It seems you haven\'t finished all stops in your task, are you sure you want to mark it as complete ?</string>
     <!-- =================== -->
+
     <!---      Map     -->
     <string name="crops">Crops</string>
     <string name="traps">Traps</string>
@@ -415,30 +451,38 @@
     <string name="sensor">Sensor</string>
     <string name="greenhouse">Greenhouse</string>
     <string name="no_crops_to_show">No crops to show</string>
+
     <!-- draw path layer -->
     <string name="click_to_start_draw_path">Click to start drawing path</string>
     <string name="drawing_path">Drawing path</string>
     <string name="time_per_stop">Time per stop</string>
     <string name="moving_speed">Moving speed</string>
     <string name="radius">Radius</string>
+
     <string name="plot_associated_sensors_and_traps">Plot\'s associated sensors &amp; traps</string>
     <string name="area">Area</string>
     <string name="grower">Grower</string>
     <string name="type_of_crop">Type</string>
     <string name="n_a">N/A</string>
     <string name="no_sensor_to_show">No sensors/traps associated with this plot</string>
+
     <string name="search_crop_trap_sensor_hint">Search crop/trap/sensor</string>
+
     <string name="side_navigation_loading">Side navigation is loading…</string>
     <string name="side_navigation">Side navigation</string>
+
     <string name="currently_at">"Currently at "</string>
     <!-- =================== -->
+
     <!--     Fonts List      -->
     <string name="roboto_regular" translatable="false">Roboto-Regular</string>
     <string name="roboto_medium" translatable="false">Roboto-Medium</string>
     <string name="roboto_light" translatable="false">Roboto-Light</string>
     <!-- =================== -->
+
     <string name="back_to_sensors_and_traps_list">"Back to sensors and traps list"</string>
     <string name="no_availble_reports">No Availble Reports</string>
+
     <!-- Intervals -->
     <string name="interval_now">Now</string>
     <string name="interval_yesterday">Yesterday</string>
@@ -455,6 +499,8 @@
         <item quantity="one">%d day ago</item>
         <item quantity="other">%d days ago</item>
     </plurals>
+
+
     <string name="step_enumeration">Step </string>
     <string name="define_base_line_title">Define baseline</string>
     <string name="define_base_line_description">Choose two points to set the bays baseline</string>
@@ -466,11 +512,15 @@
     <string name="create_greenhouse_width">Width of bays</string>
     <string name="create_greenhouse_gutters">Amount of gutters</string>
     <string name="create_greenhouse_post">Post distance in line with gutter</string>
+
+
     <string name="add_greenhouse">Add Greenhouse</string>
     <string name="add_report">Add Report</string>
     <string name="edit_structure">Edit Structure</string>
     <string name="general_report">General report</string>
-    <string name="schematic_map">Schematic map</string>
+    <string name="schematic_map" >Schematic map</string>
+
+
     <string name="greenhouse_type_name">Standard%s</string>
     <string name="greenhouse_type_bays">Bay width %s m</string>
     <string name="greenhouse_type_lines">Lines-%s</string>
@@ -484,6 +534,7 @@
     <string name="add">Add</string>
     <string name="remove">Remove</string>
     <string name="number_of_bays">Number of bays</string>
+
     <string name="from_stop">From stop</string>
     <string name="from_destination">From destination</string>
     <string name="add_remove_title">Add / Remove bays</string>
@@ -540,18 +591,22 @@
     <string name="gh_dialog_define_line_corridor">Define line corridor</string>
     <string name="gh_dialog_define_line_corridor1">Define the main corridor placement by Insert the number of posts located between the corridor to the selected baseline.</string>
     <string name="gh_dialog_define_line_corridor2">If the corridor is on the edge of the greenhouse, insert the number “0” posts.</string>
+
     <string name="gh_dialog_define_line_names">Define line name</string>
     <string name="gh_dialog_define_line_names1">First, change the first line name by selecting the side of the corridor in which you would like to change the numbering (Topside =Above corridor, Bottom side=below corridor) </string>
     <string name="gh_dialog_define_line_names2">Choose if the numbering order from the first line is Ascending /Descending </string>
     <string name="gh_dialog_define_line_names3">Input the name you would like to change to. The name can contain numbers and letters.  </string>
+
     <string name="gh_dialog_adjust_bay_lenght">Adjust bays length</string>
     <string name="gh_dialog_adjust_bay_lenght1">First, select a range of bays or an individual bay.</string>
     <string name="gh_dialog_adjust_bay_lenght2">Second, select the number of posts in this bay/s and press on the update icon.</string>
     <string name="gh_dialog_adjust_bay_lenght3">Third, select from which side to adjust the width of the bays by using the switch control.( T=Top / B=Bottom of bays )</string>
+
     <string name="gh_dialog_add_remove_bays">Add / Remove bays</string>
     <string name="gh_dialog_add_remove_bays1">First, select if you’d like to add or remove bays.</string>
     <string name="gh_dialog_add_remove_bays2">Second, choose the side you want to add them. ( R=Right, L=Left )</string>
     <string name="gh_dialog_add_remove_bays3">Third, enter the amount of bays you’d like to add/remove by clicking on the arrows.</string>
+
     <string name="gh_dialog_define_t_corridor">Define T corridor</string>
     <string name="gh_dialog_define_t_corridor1">First, select the bay in which the T corridor is located</string>
     <string name="gh_dialog_define_t_corridor2">Second, press on “Define placement” button.</string>
@@ -565,6 +620,7 @@
     <string name="amount_before">Amount before</string>
     <string name="amount_after">Amount after</string>
     <string name="name_error">Name must include at least one number</string>
+
     <string name="specify_lines">"Specify lines in bay "</string>
     <string name="lines_selected">Lines selected</string>
     <string name="amount_of_posts_desc">In order to change the length of the line, insert the start and the end posts of the selected lines</string>
@@ -587,8 +643,10 @@
     <string name="gh_complete_dialog_button">Exit</string>
     <string name="gh_complete_dialog_title">Discontinue greenhouse definition?</string>
     <string name="t_corridor_main">Main Corridor</string>
+
     <string name="general">General</string>
     <string name="no_location_found">No location found</string>
+
     <string name="cancel_adding_polygon">Are you sure you want to cancel drawing the polygon on the map?</string>
     <string name="cancel_adding_point">Are you sure you want to cancel adding a point on the map?</string>
     <string name="add_polygon">Add polygon</string>
@@ -664,6 +722,7 @@
     <string name="location_is_available">The %s has been added, you can now fill new reports to it.</string>
     <string name="you_are_offline">You are offline!</string>
     <string name="you_are_offline_content">In order to report to the newly created %s, please make sure you have an internet connection to register the %s in the project.</string>
+
     <string name="task_overview">Task overview</string>
     <string name="basic_information">Basic information</string>
     <string name="assigned_by">Assigned by:</string>
@@ -683,6 +742,7 @@
     <string name="exit_edit_mode">Are you sure you wish to exit the edit mode?\nAll changes will be discarded.</string>
     <string name="please_fill_all_fields_first">Please fill all fields first</string>
     <string name="please_fill_missing_used_amount_first">Please fill missing used amount first</string>
+
     <string name="hive_installation">Hive installation</string>
     <string name="trap_installation">Trap installation</string>
     <string name="hive_information">Hive information</string>
@@ -708,6 +768,7 @@
         <item quantity="one">%d day ago</item>
         <item quantity="other">%d days ago</item>
     </plurals>
+
     <string name="today">Today</string>
     <string name="expand_all">Expand all</string>
     <string name="fold_all">Fold all</string>
@@ -734,4 +795,5 @@
     <string name="progressed_duration">Progressed duration</string>
     <string name="interval">Interval</string>
     <string name="saved_by_device_gps_location">Saved by device GPS location</string>
+
 </resources>
