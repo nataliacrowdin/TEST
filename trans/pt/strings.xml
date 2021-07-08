@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="agritask">AgriTask</string>
-    <string name="welcome">Welcome</string>
-    <string name="location">Location</string>
+    <string name="welcome">Boas-vindas</string>
+    <string name="location">Local:</string>
     <string name="dataStatus">Data Sync</string>
     <string name="flowStatus">Flow Sync</string>
     <string name="cancel_button_label">Cancel</string>
