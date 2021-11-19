@@ -1,0 +1,3 @@
+files:
+  - source: /strings.xml
+    translation: /trans/%language%/%original_file_name%
