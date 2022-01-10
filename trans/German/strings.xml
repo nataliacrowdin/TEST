@@ -437,7 +437,7 @@
         <item quantity="other">%d hours ago</item>
     </plurals>
     <plurals name="interval_days_ago">
-        <item quantity="one">%d day ago</item>
+        <item quantity="one">апвпыпыпы</item>
         <item quantity="other">%d days ago</item>
     </plurals>
     <string name="step_enumeration">Step </string>
