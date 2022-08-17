@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="agritask">рррррррррррррррррррр</string>
-    <string name="welcome">Begrüßung</string>
     <string name="location">Standort</string>
     <string name="dataStatus">Daten-Sync</string>
     <string name="flowStatus">Flow-Sync</string>
