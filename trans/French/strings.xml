@@ -2,11 +2,11 @@
 <resources>
     <string name="agritask">AgriTask</string>
     <string name="welcome">Welcome</string>
-    <string name="location">Emplacement</string>
+    <string name="location">Location</string>
     <string name="dataStatus">Data Sync</string>
     <string name="flowStatus">Flow Sync</string>
-    <string name="cancel_button_label">Annuler</string>
-    <string name="close_button_label">Fermer</string>
+    <string name="cancel_button_label">Cancel</string>
+    <string name="close_button_label">Close</string>
     <string name="last_reading_label">Last reading at</string>
     <string name="latitude_label">Latitude</string>
     <string name="longitude_label">Longitude</string>
@@ -29,12 +29,12 @@
     <string name="recorder_button">Recorder</string>
     <string name="delete_recording_header">Delete recording?</string>
     <string name="delete_recording_text">Do you want to delete the previous recording?</string>
-    <string name="yes_button_text">Oui</string>
-    <string name="no_button_text">Non</string>
+    <string name="yes_button_text">Yes</string>
+    <string name="no_button_text">No</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <!-- Preferences -->
-    <string name="pref_ui_language_title">Langue</string>
+    <string name="pref_ui_language_title">Language</string>
     <string name="pref_ui_language_desc">Selects the language of the application</string>
     <string name="pref_english">English</string>
     <string name="pref_hebrew">Hebrew</string>
@@ -81,7 +81,7 @@
     <string name="pref_debug">Debug</string>
     <string name="pref_info">Info</string>
     <string name="pref_warn">Warn</string>
-    <string name="pref_error">Erreur</string>
+    <string name="pref_error">Error</string>
     <string name="pref_wtf">WTF</string>
     <string name="pref_log_communication_title">Debug Communication</string>
     <string name="pref_log_communication_desc">Sets if communication data should be saved to files</string>
@@ -97,13 +97,13 @@
     <string name="dialog_nfc_text">NFC reader is disabled. Do you want to open system settings and enable it?</string>
     <string name="lbl_menu_tasks">Tasks</string>
     <string name="lbl_menu_newReport">New Report</string>
-    <string name="lbl_menu_settings">Paramètres</string>
+    <string name="lbl_menu_settings">Settings</string>
     <string name="lbl_menu_advanced">Advanced</string>
     <string name="lbl_menu_logout">Log Out</string>
-    <string name="lbl_menu_exit">Sortir</string>
+    <string name="lbl_menu_exit">Exit</string>
     <string name="lbl_menu_resyncFlow">Resync</string>
     <string name="lbl_menu_send">Send</string>
-    <string name="lbl_menu_clear">Dégager</string>
+    <string name="lbl_menu_clear">Clear</string>
     <string name="lbl_menu_logLevel">Log Level</string>
     <string name="lbl_menu_map">Map</string>
     <string name="title_dialog_chooseLogLevel">Choose Level</string>
@@ -123,7 +123,7 @@
     <string name="track_status_locations">Locations tracked</string>
     <string name="track_status_storage">Locations buffered</string>
     <string name="track_status_sync">Locations sent</string>
-    <string name="track_status">Statut</string>
+    <string name="track_status">Status</string>
     <string name="track_menu_clear_sync">Clear buffer</string>
     <string name="track_battery_level">Battery level</string>
     <string name="track_notification_progress">Tracking in progress</string>
@@ -162,12 +162,12 @@
     <!-- FlowEngine Resources -->
     <string name="list_toggle">Toggle</string>
     <string name="dialog_success_title">Success</string>
-    <string name="dialog_error_title">Erreur</string>
-    <string name="dialog_warn_title">Avertissement</string>
+    <string name="dialog_error_title">Error</string>
+    <string name="dialog_warn_title">Warning</string>
     <string name="dialog_info_title">Notification</string>
     <string name="dialog_ok_button">OK</string>
-    <string name="dialog_yes_button">Oui</string>
-    <string name="dialog_no_button">Non</string>
+    <string name="dialog_yes_button">Yes</string>
+    <string name="dialog_no_button">No</string>
     <string name="err_scannerNotAvailable">The scanner is not enabled or is not connected.</string>
     <string name="msg_updatingScreen">Updating Screen&#8230;</string>
     <string name="msg_downloadingData">Downloading data&#8230;</string>
@@ -276,7 +276,7 @@
     <string name="map_ab_legend">Legend</string>
     <string name="map_nav_cancel">Stop Nav</string>
     <string name="map_track_cancel">Economy GPS</string>
-    <string name="map_back">Dos</string>
+    <string name="map_back">Back</string>
     <string name="map_nav_distance">Distance</string>
     <string name="map_nav_distance_format">%1$d m</string>
     <string name="map_no_current_location">No current location to center on</string>
@@ -294,14 +294,14 @@
     <string name="scan_barcode_status_5">Tag written successfully</string>
     <string name="scan_barcode_status_6">Error writing to tag\nTry again</string>
     <string name="scan_barcode_status_7">Not supported barcode</string>
-    <string name="scan_barcode_no_nfc_title">Avertissement</string>
+    <string name="scan_barcode_no_nfc_title">Warning</string>
     <string name="scan_barcode_no_nfc_message">The NFC function of your device is disabled. Do you want to enable it?</string>
-    <string name="scan_barcode_help_title">Aider</string>
+    <string name="scan_barcode_help_title">Help</string>
     <string name="scan_barcode_help_message">Press the Scan Barcode button, place the barcode in the scan area and move the phone slightly back and forth until successful scan.\nThen touch the card until you see a green icon with success message.</string>
     <string name="gps_status_general_na">N/A</string>
     <string name="gps_status_accuracy_high">High</string>
     <string name="gps_status_accuracy_low">Low</string>
-    <string name="gps_status_accuracy_none">Rien</string>
+    <string name="gps_status_accuracy_none">None</string>
     <string name="gps_status_accuracy_disabled">Disabled</string>
     <string name="err_checkboxConfirmRequiredLbl">Please confirm \"%1$s\"</string>
     <!-- Greenhouse Location Resources -->
@@ -336,7 +336,7 @@
     <string name="flowRecordStatusSending">Sending</string>
     <!--ImageListActivity-->
     <string name="imgListMenuStat">Statistics</string>
-    <string name="imgListCtxMenuDelete">Effacer</string>
+    <string name="imgListCtxMenuDelete">Delete</string>
     <string name="imgListCtxMenuDeleted">The file was successfully deleted</string>
     <string name="imgListCtxMenuNotDeleted">The file wasn\'t deleted because of an unexpected error</string>
     <string name="imgListCtxMenuSyncing">The file is being sent to the server right now. Try to delete it using the web application</string>
@@ -412,7 +412,7 @@
     <string name="plot_associated_sensors_and_traps">Plot\'s associated sensors &amp; traps</string>
     <string name="area">Area</string>
     <string name="grower">Grower</string>
-    <string name="type_of_crop">Taper</string>
+    <string name="type_of_crop">Type</string>
     <string name="n_a">N/A</string>
     <string name="no_sensor_to_show">No sensors/traps associated with this plot</string>
     <string name="search_crop_trap_sensor_hint">Search crop/trap/sensor</string>
@@ -466,8 +466,8 @@
     <string name="got_it">GOT IT</string>
     <string name="switch_left">L</string>
     <string name="switch_right">R</string>
-    <string name="add">Ajouter</string>
-    <string name="remove">Supprimer</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
     <string name="number_of_bays">Number of bays</string>
     <string name="from_stop">From stop</string>
     <string name="from_destination">From destination</string>
@@ -569,10 +569,10 @@
     <string name="b_word">B</string>
     <string name="bs_error">The chosen baseline can\'t be handled. Please choose another one</string>
     <string name="gh_complete_dialog_body">Do you want to exit from definition of the greenhouse?</string>
-    <string name="gh_complete_dialog_button">Sortir</string>
+    <string name="gh_complete_dialog_button">Exit</string>
     <string name="gh_complete_dialog_title">Discontinue greenhouse definition?</string>
     <string name="t_corridor_main">Main Corridor</string>
-    <string name="general">Général</string>
+    <string name="general">General</string>
     <string name="no_location_found">No location found</string>
     <string name="cancel_adding_polygon">Are you sure you want to cancel drawing the polygon on the map?</string>
     <string name="cancel_adding_point">Are you sure you want to cancel adding a point on the map?</string>
@@ -693,7 +693,7 @@
         <item quantity="one">%d day ago</item>
         <item quantity="other">%d days ago</item>
     </plurals>
-    <string name="today">Aujourd\'hui</string>
+    <string name="today">Today</string>
     <string name="expand_all">Expand all</string>
     <string name="fold_all">Fold all</string>
     <string name="machine_details">Machine Details</string>
